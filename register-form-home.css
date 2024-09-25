@@ -1,0 +1,175 @@
+
+header {
+    background-color: #131921; 
+    padding: 10px 25px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo a{
+    height: 40px;
+    color:white;
+    text-decoration:none;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+  .icon img{ 
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    filter: invert(100%);
+  }
+  .start-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+.login-form {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 5px 2px;
+  width: 250px;
+  color: white;
+  border: 1px solid whitesmoke;
+}
+
+.login-form h3 {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.login-form a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
+
+.user-icon-container:hover .login-form {
+  display: block;
+}form{
+    background-color: black;
+    color: whitesmoke;
+    padding:50px 450px;
+}
+p{
+    color:#ccc;
+}
+.sparrow{
+    color: white;
+}
+input{
+    background-color: rgb(42, 36, 36);
+    padding: 6px 75px;
+    text-align: left;
+}
+.rdt button{
+    background-color: red;
+    border-radius: 3px;
+    border:none;
+    padding:6px 138px;
+}
+.rak button:nth-child(2){
+    background-color:rgb(249, 95, 95) ;
+    padding:6px 25px
+}
+.rak button:first-child{
+    background-color: rgb(72, 72, 163);
+    padding: 6px 25px
+}
+.rak button:last-child{
+    background-color: rgb(87, 204, 251);
+    padding: 6px 25px
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+  
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .main div {
+    flex: 1;
+    margin: 0 20px; 
+  }
+  
+  .main div ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  .main h3{
+    padding-left: 25px;
+  }
+  
+  .main div ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .main div ul li a:hover {
+    color: rgb(233, 23, 23);
+  }
+  
+   footer input {
+    background-color: #232f3e;
+  
+    padding: 10px;
+    width: 100%;
+  
+    
+    border-radius: 4px;
+    margin-top: 10px;
+   }
+  
+  footer button {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color:whitesmoke;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  .bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+    display: flex;
+    
+  }
+  
+  .bottom subbottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+    
+  }
+  .subbottom1{
+    padding-left: 400px;
+  }
+  .subbottom1 img{
+  height: 20px;
+  width: 20px;
+  margin-left: 40px;
+  filter: invert(100%);
+  }
+  
+  

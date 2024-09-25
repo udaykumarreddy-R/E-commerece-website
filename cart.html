@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="C:\Users\udayr\OneDrive\Desktop\practice\cart.css">
+<style>
+    .volume-control {
+            display: grid;
+            align-items:end;
+            
+        }
+
+        .volume-btn {
+            background-color: red;
+            color: white;
+            font-size: 14px;
+        }
+
+        
+
+        
+</style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <a href="C:\Users\udayr\OneDrive\Desktop\practice\home.html">Tech-Shop</a>
+          </div>
+          <div class="icon">
+            <a href="">
+              <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\search.png" alt="Search">
+            </a>
+            <a href="C:\Users\udayr\OneDrive\Desktop\practice\cart.html">
+              <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\shopping-cart.png" alt="Cart">
+            </a>
+            <div class="user-icon-container">
+              <a href="#">
+                <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\user.png" alt="Profile" class="user-icon">
+              </a>
+              <div class="login-form">
+                <form>
+                  <h3>Hello!</h3>
+                  <p>Access account and manage orders</p>
+                  
+                  <a href="C:\Users\udayr\OneDrive\Desktop\practice\register-form-home.html">Login/Signup</a>
+                 <hr>
+                  <h4>Please Login</h4>
+                  
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <div class="cart-container">
+        
+        <div class="cart-items-column">
+            
+            <ul class="cart-items">
+        
+                <li class="cart-item">
+                    
+                    <div class="cart-item-info">
+                        <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\boat518-1.png" alt="Product Image">
+                        <div>
+                            <div class="volume-control">
+                            <h2>boAt Rockerz 518</h2>
+                            <h3>&#8377 1,299  <span class="ack">&#8377 3,990</span> </h3>
+                         
+                        </div>
+                    
+                   
+                        <button class="volume-btn">-</button>
+                        <input type="range" min="0" max="100" value="50" class="volume-slider">
+                        <button class="volume-btn">+</button>
+                        
+                    </div>
+    </div>
+                    <button class="delete-btn">&#128465;</button>
+                </li>
+                <hr>
+                <li class="cart-item">
+                
+                    <div class="cart-item-info">
+                        <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\sonyXb910n-1.png" alt="Headset">
+                        <div>
+                            <div class="volume-control">
+                            <h2>Sony XB910N</h2>
+                            <h3>&#8377 13,489  <span class="ack">&#8377 19,990 </span> </h3>
+                        </div>                    
+                        <button class="volume-btn">-</button>
+                        <input type="range" min="0" max="100" value="50" class="volume-slider">
+                        <button class="volume-btn">+</button>
+                    </div>
+                    </div>
+                    <button class="delete-btn">&#128465;</button>
+                </li>
+                <hr>
+                
+                <li class="cart-item">
+                    
+                    <div class="cart-item-info">
+                        <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\jbl760nc-4.png" alt="Product Image">
+                        <div>
+                            <div class="volume-control">
+                            <h2>JBL Tune 760NC</h2>
+                            <h3> &#8377 5,999 <span class="ack">&#8377 7,999</span> </h3>
+                        </div>                   
+                        <button class="volume-btn">-</button>
+                        <input type="range" min="0" max="100" value="50" class="volume-slider">
+                        <button class="volume-btn">+</button>
+                    </div>
+                    </div>
+                    <button class="delete-btn">&#128465;</button>
+                </li>
+                <hr>
+                
+                <li class="cart-item">
+                
+                    <div class="cart-item-info">
+                        <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\boat410-1.png" alt="Headset">
+                        <div>
+                            <div class="volume-control">
+                            <h2>boAt Rockerz 410</h2>
+                            <h3>&#8377; 1,599  <span class="ack">&#8377 2,999</span> </h3>
+                        </div>                 
+                        <button class="volume-btn">-</button>
+                        <input type="range" min="0" max="100" value="50" class="volume-slider">
+                        <button class="volume-btn">+</button>
+                    </div>
+                    </div>
+                    <button class="delete-btn">&#128465;</button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Right Column: Order Summary -->
+        <div class="order-summary-column">
+            <div class="order-summary">
+                <h3>Order Summary(4 items)</h3>
+                <div class="summary-item">
+                    <p>Original Price</p>
+                    <p>&#8377; 34,978</p>
+                </div>
+                <div class="summary-item">
+                    <p>Discount</p>
+                    <p>&#8377; 12,592</p>
+                </div>
+                <div class="summary-item">
+                    <p>Delivery</p>
+                    <p>free</p>
+                </div>
+                <div class="total">
+                    
+                    <p>Total Price  </p>   
+                      <p> &#8377; 22,386</p>
+                </div>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <nav class="main">
+          <div class="sub">
+            <h2>Tech-Shop</h2>
+            <p>Subscribe to Our Email to receive early discount offers and new products info</p>
+            <input type="email" name="email" placeholder="Email Address">
+            <button type="submit">Subscribe</button>
+          </div>
+    
+          <div class="rat">
+            <h3>Help</h3>
+            <ul>
+              <li><a href="">FAQs</a></li>
+              <li><a href="">Track Order</a></li>
+              <li><a href="">Cancel Order</a></li>
+              <li><a href="">Return Order</a></li>
+              <li><a href="">Warranty Info</a></li>
+            </ul>
+          </div>
+    
+          <div class="cat">
+            <h3>Policies</h3>
+            <ul>
+              <li><a href="">Return Policy</a></li>
+              <li><a href="">Security</a></li>
+              <li><a href="">Sitemap</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+            </ul>
+          </div>
+    
+          <div class="rap">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Service Centres</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Affiliates</a></li>
+            </ul>
+          </div>
+        </nav>
+        <hr>
+    
+        <div class="bottom">
+          <div class="subbuttom">
+            <p>2024|All Rights Reserved.Built by|R.UDAY KUMAR REDDY</p></div>
+          <div class="subbottom1"><a href="">
+            <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\facebook.png" alt="facebook">
+          </a>
+          <a href="">
+            <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\twitter.png" alt="twitter">
+          </a>
+          <a href="">
+            <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\instagram.png" alt="instagram">
+          </a>
+          <a href=""></a>
+            <img src="C:\Users\udayr\OneDrive\Desktop\practice\images\linkedin.png" alt="linked in">
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
